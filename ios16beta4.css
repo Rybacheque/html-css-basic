@@ -50,7 +50,6 @@ main {
 }
 
 
-
 a {
     text-decoration: none;
 }
@@ -58,7 +57,6 @@ a {
 .postImage {
     border-radius: 40px;
     width: 100%;
-    
 }
 
 .head {
@@ -121,7 +119,7 @@ a {
 
 .mainImage {
     border-radius: 20px;
-    width: 70%;
+    max-width: 550px;
 }
 
 .begin, .photoStyles, .kinoEffect, .macro, .proRes, .quickTake, .deepFusion, .frontCamera, .end {
