@@ -18,17 +18,22 @@ header {
     /* margin-left: 150px; */
 }
 
+.aHeader {
+    text-decoration: none;
+    color: black;
+}
+
 hr {
     border: 1px solid lightgrey;
     opacity: 20%;
 }
 
 .aImg {
-    height: 10px;
+    height: 20px;
 }
 
 .aHead {
-    margin: 20px;
+    margin: 10px;
 }
 
 body {
@@ -60,23 +65,27 @@ a {
 }
 
 .discription {
-    width: 50%;
-    text-align:left
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    max-width: 550px;
 }
 
 .discriptionInfo {
-    /* width: 50%; */
+    width: 50%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     color: dimgray;
     font-size: 12px;
     display: flex;
-    margin: 0 0 -20px -30px;
 }
 
 .discriptionImg {
-    width: 15px;
+    width: 30px;
+    height: 30px;
     margin-right: 3px;
     margin-left: 15px;
 }
@@ -86,6 +95,7 @@ a {
     font-size: 12px;
     display: flex;
     margin-left: 5px;
+    align-items: center;
 }
 
 
@@ -95,10 +105,6 @@ a {
     font-size: 18px;
 }
 
-h1 {
-    font-size: 45px;
-
-}
 
 .mainPhotoPost {
     text-align: center;
@@ -108,7 +114,7 @@ h1 {
 
 .mainImage {
     border-radius: 20px;
-    width: 70%;
+    max-width: 550px;
 }
 
 .begin, .photoStyles, .kinoEffect, .macro, .proRes, .quickTake, .deepFusion, .frontCamera, .end {
@@ -131,4 +137,3 @@ footer {
 h2 h3 {
     text-align: left;
 }
-
