@@ -1,20 +1,21 @@
 header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-right: 150px;
-    margin-bottom: -20px;
+    /* margin-right: 150px;
+    margin-bottom: -20px; */
+}
+
+.linkHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .pHeader {
     font-size: 30px;
-    margin-left: 150px;
-}
-
-.aHeader {
-    text-decoration: none;
-    color: black;
+    /* margin-left: 150px; */
 }
 
 hr {
@@ -23,7 +24,7 @@ hr {
 }
 
 .aImg {
-    height: 20px;
+    height: 10px;
 }
 
 .aHead {
