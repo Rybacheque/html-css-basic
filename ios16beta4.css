@@ -30,7 +30,7 @@ hr {
 
 .aImg {
     height: 20px;
-    width: 20px;
+    
 }
 
 .aHead {
@@ -49,11 +49,7 @@ main {
     flex-direction: column;
 }
 
-.head {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 a {
     text-decoration: none;
@@ -65,24 +61,38 @@ a {
     
 }
 
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .discription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
     width: 50%;
-    text-align:left
 }
 
 .discriptionInfo {
-    width: 50%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     color: dimgray;
     font-size: 12px;
     display: flex;
-    margin: 0 0 -20px -30px;
 }
 
 .discriptionImg {
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+    margin-left: 15px;
+}
+.discriptionPic {
     width: 15px;
+    height: 15px;
     margin-right: 3px;
     margin-left: 15px;
 }
@@ -92,18 +102,14 @@ a {
     font-size: 12px;
     display: flex;
     margin-left: 5px;
+    align-items: center;
 }
 
 
 .discriptionParag {
-    margin-top: -20px;
+    /* margin-top: -20px; */
     color: dimgray;
     font-size: 18px;
-}
-
-h1 {
-    font-size: 45px;
-
 }
 
 .mainPhotoPost {
