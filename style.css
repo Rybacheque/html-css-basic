@@ -9,7 +9,12 @@ header {
 
 .pHeader {
     font-size: 30px;
-    margin-left: 150px
+    margin-left: 150px;
+}
+
+.aHeader {
+    text-decoration: none;
+    color: black;
 }
 
 hr {
@@ -43,7 +48,9 @@ main {
     width: 30%;
     text-align: left;
     border: 1px solid dimgrey;
-    margin: auto;
+    margin: 10px;
+    padding: 20px 10px 10px 10px;
+    border-radius: 10px;
 }
 
 .aNews {
@@ -58,6 +65,7 @@ main {
 
 .imgNews {
     width: 100%;
+    border-radius: 10px;
 }
 
 .mainPage {
