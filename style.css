@@ -42,10 +42,14 @@ main {
     flex-direction: column;
 }
 
+.mainPageH1 {
+    margin: 0 0 20px 20px;
+}
+
 .news {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 300px;
     text-align: left;
     border: 1px solid dimgrey;
     margin: 10px;
