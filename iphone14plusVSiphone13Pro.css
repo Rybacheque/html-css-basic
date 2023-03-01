@@ -1,0 +1,132 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 150px;
+    margin-bottom: -20px;
+}
+
+.pHeader {
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+.aHeader {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    border: 1px solid lightgrey;
+    opacity: 20%;
+}
+
+.aImg {
+    height: 20px;
+}
+
+.aHead {
+    margin: 20px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.postImage {
+    border-radius: 40px;
+    width: 100%;
+    
+}
+
+.discription {
+    width: 50%;
+    text-align:left
+}
+
+.discriptionInfo {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: dimgray;
+    font-size: 12px;
+    display: flex;
+    margin: 0 0 -20px -30px;
+}
+
+.discriptionImg {
+    width: 15px;
+    margin-right: 3px;
+    margin-left: 15px;
+}
+
+.discriptionLink, .discriptionDateText .discriptionView .discriptionComments {
+    color: dimgray;
+    font-size: 12px;
+    display: flex;
+    margin-left: 5px;
+}
+
+
+.discriptionParag {
+    margin-top: -20px;
+    color: dimgray;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 45px;
+
+}
+
+.mainPhotoPost {
+    text-align: center;
+    font-size: 15px;
+    color: dimgray;
+}
+
+.mainImage {
+    border-radius: 20px;
+    width: 70%;
+}
+
+.begin, .photoStyles, .kinoEffect, .macro, .proRes, .quickTake, .deepFusion, .frontCamera, .end {
+    width: 50%;
+    margin: auto;
+    font-size: 17px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aImgFooter {
+    height: 20px;
+}
+
+h2 h3 {
+    text-align: left;
+}
