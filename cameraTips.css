@@ -65,7 +65,7 @@ a {
 }
 
 .discriptionInfo {
-    width: 50%;
+    /* width: 50%; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
