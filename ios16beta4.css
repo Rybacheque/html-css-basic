@@ -70,9 +70,10 @@ a {
 .discription {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     text-align: left;
-    width: 50%;
+    max-width: 550px;
 }
 
 .discriptionInfo {
@@ -107,7 +108,7 @@ a {
 
 
 .discriptionParag {
-    /* margin-top: -20px; */
+    margin-top: -10px;
     color: dimgray;
     font-size: 18px;
 }
@@ -124,7 +125,7 @@ a {
 }
 
 .begin, .photoStyles, .kinoEffect, .macro, .proRes, .quickTake, .deepFusion, .frontCamera, .end {
-    width: 50%;
+    max-width: 550px;
     margin: auto;
     font-size: 17px;
 }
