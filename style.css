@@ -43,8 +43,7 @@ main {
     width: 30%;
     text-align: left;
     border: 1px solid dimgrey;
-    margin: 20px;
-    
+    margin: auto;
 }
 
 .aNews {
@@ -65,7 +64,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .head {
